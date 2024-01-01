@@ -1,0 +1,86 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+     background-color: #845EC2;
+}
+
+.child-div{
+    margin-top: 100px;
+    color: aqua;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+.addItems{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+.items{
+    height: 35px;
+    width: 250px;
+    padding: 10px;
+    border-radius: 5px;
+    border: 1px solid;
+}
+
+.button{
+    margin: 10px;
+    padding: 8px;
+    height: 35px;
+    width: 30px;
+    background-color: rgb(212, 17, 144);
+    cursor: pointer;
+    border-radius: 5px;
+    
+}
+
+.showItems{
+    margin-left: 490px;
+
+    
+}
+
+.eachItems{
+    height: 35px;
+    width: 250px;
+    background-color: rgb(56, 223, 181);
+    color: rgb(14, 11, 232);
+    border: 1px solid;
+    border-radius: 5px;
+    padding-left: 5px;
+    padding-right: 5px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    
+}
+
+.delete{
+   color: rgb(174, 12, 12);
+   cursor: pointer;
+}
+
+.remove{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 10px;
+}
+
+.removeItems{
+    background-color: blue;
+    color: azure;
+    height: 35px;
+    width: 100px;
+    border: 2px solid;
+    border-radius: 10px;
+    cursor: pointer;
+
+}
